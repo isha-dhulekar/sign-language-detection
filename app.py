@@ -16,7 +16,7 @@ from Preprocess import preprocess
 
 
 # open and get the constants from the json file
-f = open("C:\\Users\\Admin\\Desktop\\SLR\\Sign-Language-Recognition-master\\Constants.json")
+f = open("/write your file location here/")
 data = json.load(f)
 
 labels = data['labels']
@@ -30,7 +30,7 @@ IMG_SIZE = data['TRAIN_IMG_SIZE']
 classes = ascii_lowercase + '0123456789'
 
 # loading the weights for the model
-model=load_model("C:\\Users\\Admin\\Desktop\SLR\\Sign-Language-Recognition-master\\sign_lang.h5")
+model=load_model("/write your file location here/")
 
 
 class GUI:
