@@ -40,5 +40,5 @@ Follow the below steps to set up the virtual environment locally
 After this, you are ready to run the code in your machine!
 
 ### Output
-We have implemented the live classification of sign language through our model using [OpenCV](OpenCV/).
+We have implemented the live classification of sign language through our model using [OpenCV](app.py/).
 cmd -> cd file name -> openCV -> app.py
